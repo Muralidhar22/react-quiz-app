@@ -88,6 +88,7 @@ body {
     font-family: var(--ff-inter);
     font-weight: 400;
     background-color: #F5F7FB;
+    color: #293264;
 }
 
 h1,
@@ -97,5 +98,27 @@ h2 {
 }
 
 .options {
+    display: flex;
+    gap: 1rem;
     flex-wrap: wrap;
+}
+
+.option {
+    border-radius: .75rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn_start-quiz,
+.btn_play-again,
+.btn_check-answers {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 1.9rem;
+    color: white;
+    background: #4D5B9E;
+    border-radius: .95rem;
+    border: none;
 }
