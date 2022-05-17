@@ -18,6 +18,7 @@ main::before {
     background-color: lemonchiffon;
     border-radius: 41% 52% 49% 28% / 30% 32% 44% 34%;
     margin: -100px -100px 0 0;
+    z-index: -10;
 }
 
 main::after {
@@ -30,4 +31,5 @@ main::after {
     background-color: #DEEBF8;
     border-radius: 52% 33% 49% 28% / 30% 43% 42% 34%;
     margin: 0 0 -100px -100px;
+    z-index: -10;
 }
